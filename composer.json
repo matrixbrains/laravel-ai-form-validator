@@ -1,0 +1,41 @@
+{
+    "name": "matrixbrains/laravel-ai-form-validator",
+    "description": "Laravel AI Form Validator - Use AI to validate free-text form inputs beyond normal Laravel validation.",
+    "keywords": [
+        "laravel",
+        "validation",
+        "ai",
+        "openai",
+        "gemini",
+        "claude",
+        "mistral"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "homepage": "https://github.com/matrixbrains/laravel-ai-form-validator",
+    "authors": [
+        {
+            "name": "Vikram Mevasiya",
+            "email": "vikram.mevasiya@matrixbrains.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Matrixbrains\\LaravelAiFormValidator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Matrixbrains\\LaravelAiFormValidator\\Providers\\AiFormValidatorServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "matrixbrains/laravel-ai": "1.0.0"
+    }
+}
